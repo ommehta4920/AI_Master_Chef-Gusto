@@ -2,8 +2,6 @@
 
 **Gusto** is an AI-powered recipe assistant built using **Django**, **LangChain**, and **Google Generative AI (Gemini 2.5 Flash)**. This project provides a simple, intuitive web interface where users can request a food dish recipe, and Gusto generates a complete, step-by-step cooking guide.
 
-> Developed during a learning journey into LLMs, LangChain, and Django.
-
 ---
 
 ## 🔥 Features
@@ -22,8 +20,6 @@
 | Input Form | Input Query | Invalid Query | Persistent Recipe |
 |------------|----------------|---------------|--------------------|
 | ![Screenshot 1](./screenshots/AI_Master_Chef_1.png) | ![Screenshot 2](./screenshots/AI_Master_Chef_2.png) | ![Screenshot 3](./screenshots/AI_Master_Chef_4.png) | ![Screenshot 4](./screenshots/AI_Master_Chef_3.png) |
-
-> Place all 4 screenshots in a `screenshots/` directory in your repo.
 
 ---
 
