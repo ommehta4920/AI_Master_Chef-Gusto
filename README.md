@@ -19,9 +19,9 @@
 
 ## 📸 Screenshots
 
-| Input Form | Recipe Result | Invalid Query | Persistent Recipe |
+| Input Form | Input Query | Invalid Query | Persistent Recipe |
 |------------|----------------|---------------|--------------------|
-| ![Screenshot 1](./screenshots/Screenshot%20(104).png) | ![Screenshot 2](./screenshots/Screenshot%20(105).png) | ![Screenshot 3](./screenshots/Screenshot%20(106).png) | ![Screenshot 4](./screenshots/Screenshot%20(107).png) |
+| ![Screenshot 1](./screenshots/AI_Master_Chef_1.png) | ![Screenshot 2](./screenshots/AI_Master_Chef_2.png) | ![Screenshot 3](./screenshots/AI_Master_Chef_4.png) | ![Screenshot 4](./screenshots/AI_Master_Chef_3.png) |
 
 > Place all 4 screenshots in a `screenshots/` directory in your repo.
 
@@ -43,3 +43,41 @@
 ```bash
 git clone https://github.com/your-username/ai-master-chef.git
 cd ai-master-chef
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set Up Your Google GenAI API Key
+
+Create a .env file in the root directory of your project:
+```bash
+GOOGLE_API_KEY=your_google_genai_api_key
+```
+
+### 5. Run the Django Server
+
+```bash
+python manage.py runserver
+```
+Visit: http://127.0.0.1:8000
+
+### Sample Queries
+
+✅ "I need a Paneer Butter Masala recipe"
+✅ "How do I make Chicken Biryani?"
+❌ "Who is the Prime Minister of India?"
