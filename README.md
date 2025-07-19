@@ -74,6 +74,6 @@ Visit: http://127.0.0.1:8000
 
 ### Sample Queries
 
-✅ "I need a Paneer Butter Masala recipe"
-✅ "How do I make Chicken Biryani?"
+✅ "I need a Paneer Butter Masala recipe"</br>
+✅ "How do I make Chicken Biryani?"</br>
 ❌ "Who is the Prime Minister of India?"
